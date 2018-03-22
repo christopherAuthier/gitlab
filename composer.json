@@ -1,0 +1,22 @@
+{
+    "name": "adamgoose/gitlab",
+    "description": "Laravel API Wrapper for GitLab CE",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam Engebretson",
+            "email": "adam@enge.me"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.1.*",
+        "guzzlehttp/guzzle": "~4.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Adamgoose\\Gitlab": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
